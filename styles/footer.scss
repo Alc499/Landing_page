@@ -1,0 +1,37 @@
+.footer {
+  height: 176px;
+
+  background-color: #1caaae;
+
+  &__container {
+    font-size: 18px;
+  }
+
+  &__contacts {
+    position: relative;
+  }
+
+  &__contacts-list {
+    list-style: none;
+    padding-left: 35px;
+  }
+
+  &__contacts::before {
+    display: block;
+
+    position: absolute;
+    top: 8px;
+    content: url(http://media.lpgenerator.ru/images/46615/11_85.png#size_21x23);
+  }
+
+  &__contacts-link {
+    color: #fff;
+    text-decoration: none; 
+
+    transition: color 0.3s;
+  }
+
+  &__contacts-link:hover {
+    color: #dbd9d9;
+  }
+}

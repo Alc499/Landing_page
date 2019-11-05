@@ -1,0 +1,29 @@
+.header {
+  height: 400px;
+
+  background-position: 50% 0%;
+  background-repeat: repeat;
+  border-width: 1px;
+  background-image: url(http://media.lpgenerator.ru/images/46615/2_50.jpg#size_2x2);
+
+  &__wrapper {
+    position: relative;
+
+    width: 1200px;
+    padding: 0 114px;
+
+    background-image: url(http://media.lpgenerator.ru/images/46615/1_70.jpg#size_1200x400);
+  }
+  
+  &__repairs { 
+    display: flex;
+    height: 163px;
+    width: 234px;
+
+    background-color: #fff;
+  }
+
+  &__repairs img {
+    margin: auto;
+  }
+}

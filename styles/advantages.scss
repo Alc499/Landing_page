@@ -1,0 +1,137 @@
+.advantages {
+  height: 1299px;
+
+  background-color: #c5bfb4;
+
+  &__wrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__header {
+    margin-bottom: 60px;
+    
+    text-align: center;
+    line-height: 40px;
+  }
+
+  &__list {
+    display: grid;
+
+    grid-template-columns: repeat(2, 480px);
+    grid-gap: 15px;
+
+    list-style: none;
+  }
+
+  &__list-point {
+    position: relative;
+
+    opacity: 0.7;
+    box-shadow: 0 1px 2px transparent;
+
+    transition: opacity 0.3s, box-shadow 0.3s;
+  }
+
+  &__list-point:hover {
+    opacity: 1;
+    box-shadow: 0 1px 2px #524b3b;
+  }
+
+  &__list-point-roller:before {
+    position: absolute;
+    top: 198px;
+    left: 203px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    height: 76px;
+    width: 74px;
+  
+    content: url(http://media.lpgenerator.ru/images/46615/4_118.png#size_33x39);
+    background-image: url(http://media.lpgenerator.ru/images/46615/5_108.png#size_73x74);
+  }
+  
+  &__list-point-contract {
+    :before {
+      position: absolute;
+      top: 198px;
+      left: 203px;
+    
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      height: 76px;
+      width: 74px;
+    
+      content: url(http://media.lpgenerator.ru/images/46615/6_98.png#size_40x31);
+      background-image: url(http://media.lpgenerator.ru/images/46615/5_108.png#size_73x74);
+    }
+  }
+
+  &__list-point-builder {
+    :before {
+      position: absolute;
+      top: 198px;
+      left: 203px;
+    
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      height: 76px;
+      width: 74px;
+    
+      content: url(http://media.lpgenerator.ru/images/46615/7_90.png#size_38x41);
+      background-image: url(http://media.lpgenerator.ru/images/46615/5_108.png#size_73x74);
+    }
+  }
+
+  &__list-point-money {
+    :before {
+      position: absolute;
+      top: 198px;
+      left: 203px;
+    
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      height: 76px;
+      width: 74px;
+    
+      content: url(http://media.lpgenerator.ru/images/46615/8_87.png#size_41x39);
+      background-image: url(http://media.lpgenerator.ru/images/46615/5_108.png#size_73x74);
+    }
+  }
+
+  &__img {
+    height: 235px;
+    padding: 18px;
+
+    border-style: none;
+    background-color: #ece8e0;
+  }
+
+  &__content {
+    height: 235px;
+    padding: 60px;
+
+    color: #524b3b;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: verdana;
+  }
+
+  &__content-header {
+    margin: 10px 0 25px;
+
+    color: #00999e;
+    font-weight: normal;
+    font-size: 20px;
+  }
+}

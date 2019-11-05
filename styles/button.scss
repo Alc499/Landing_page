@@ -1,0 +1,22 @@
+.button {
+  width: 283px;
+  height: 60px;
+
+  text-align: center;
+  background-color: #f3da37;
+  border: none;
+
+  color: #9b7300;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: Verdana;
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #edcd2b;
+}
