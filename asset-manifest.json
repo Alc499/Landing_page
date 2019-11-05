@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Landing_page/./static/css/main.5dadb683.chunk.css",
-    "main.js": "/Landing_page/./static/js/main.434b6a99.chunk.js",
-    "main.js.map": "/Landing_page/./static/js/main.434b6a99.chunk.js.map",
-    "runtime~main.js": "/Landing_page/./static/js/runtime~main.4e8e9690.js",
-    "runtime~main.js.map": "/Landing_page/./static/js/runtime~main.4e8e9690.js.map",
-    "static/js/2.fdcae455.chunk.js": "/Landing_page/./static/js/2.fdcae455.chunk.js",
-    "static/js/2.fdcae455.chunk.js.map": "/Landing_page/./static/js/2.fdcae455.chunk.js.map",
-    "index.html": "/Landing_page/./index.html",
-    "precache-manifest.7a7e91a616bd24a12a408097a670ba84.js": "/Landing_page/./precache-manifest.7a7e91a616bd24a12a408097a670ba84.js",
-    "service-worker.js": "/Landing_page/./service-worker.js",
-    "static/css/main.5dadb683.chunk.css.map": "/Landing_page/./static/css/main.5dadb683.chunk.css.map"
+    "main.css": "/repairs_lading_page/./static/css/main.5dadb683.chunk.css",
+    "main.js": "/repairs_lading_page/./static/js/main.434b6a99.chunk.js",
+    "main.js.map": "/repairs_lading_page/./static/js/main.434b6a99.chunk.js.map",
+    "runtime~main.js": "/repairs_lading_page/./static/js/runtime~main.1a20cf1c.js",
+    "runtime~main.js.map": "/repairs_lading_page/./static/js/runtime~main.1a20cf1c.js.map",
+    "static/js/2.fdcae455.chunk.js": "/repairs_lading_page/./static/js/2.fdcae455.chunk.js",
+    "static/js/2.fdcae455.chunk.js.map": "/repairs_lading_page/./static/js/2.fdcae455.chunk.js.map",
+    "index.html": "/repairs_lading_page/./index.html",
+    "precache-manifest.36772b018157ed9781d8d2b46c6a0fa0.js": "/repairs_lading_page/./precache-manifest.36772b018157ed9781d8d2b46c6a0fa0.js",
+    "service-worker.js": "/repairs_lading_page/./service-worker.js",
+    "static/css/main.5dadb683.chunk.css.map": "/repairs_lading_page/./static/css/main.5dadb683.chunk.css.map"
   }
 }
