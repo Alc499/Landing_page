@@ -9,6 +9,22 @@ body {
   color: #fff;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 .container {
   width: 100%;
   display: flex;
@@ -86,10 +102,10 @@ body {
 
 .form-container {
   position: absolute;
-  bottom: 100px;
+  bottom: 70px;
   right: 44px;
   z-index: 97;
-  height: 487px;
+  height: 537px;
   width: 398px;
   display: flex;
   flex-direction: column;
@@ -121,8 +137,12 @@ body {
   margin: 5px;
   outline: none;
 }
-.form-container__form-input:last-of-type {
+.form-container__form-text {
+  height: 100px;
   margin-bottom: 20px;
+  padding: 10px 5px;
+  resize: none;
+  font: 400 13.3333px Arial;
 }
 
 .form-container::before {
