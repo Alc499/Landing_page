@@ -112,6 +112,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #20a9ae;
+  box-shadow: 0 1px 2px #524b3b;
 }
 .form-container__content {
   margin-bottom: 10px;
@@ -148,7 +149,7 @@ body {
 .form-container::before {
   position: absolute;
   left: 150px;
-  bottom: 0;
+  top: 490px;
   content: url(http://media.lpgenerator.ru/images/46615/32_30.png#size_66x78);
 }
 
@@ -302,11 +303,17 @@ body {
   font-family: Verdana;
   text-transform: uppercase;
   cursor: pointer;
+  outline: none;
+  box-shadow: 0 1px 2px #524b3b;
   transition: background-color 0.3s;
 }
 
 .button:hover {
   background-color: #edcd2b;
+}
+
+.button:active {
+  background-color: #ccb026;
 }
 
 /*# sourceMappingURL=style.css.map */
