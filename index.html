@@ -5,7 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcUzN54OzjJaNtZzeJZ1ckfwf35HVAdvfOxySCx8YYdyRq7dL6&s">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <title>Repairs group</title>
 </head>
 <body>
@@ -213,7 +217,7 @@
       </div>
   
       <div class="footer__button">
-        <button class="button">получить предложение</button>
+        <button class="button" data-toggle="modal" data-target="#exampleModal">получить предложение</button>
       </div>
   
       <div class="footer__email">
@@ -223,6 +227,53 @@
         >
           a.o.musienko@gmail.com
         </a>
+      </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content form-container">
+          <div class="modal-header form-container__content">
+            <div>
+              <h2 class="form-container__header">Заполните <br /> форму</h2>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <span>и получите уникальное предложение: </span>
+          </div>
+          <div class="modal-body">
+            <form class="form-container__form" action="post">
+              <input 
+                type="text" 
+                name="name" 
+                placeholder="Имя*"
+                required
+                class="form-container__form-input"
+              >
+              <input 
+                type="tel" 
+                name="phone" 
+                placeholder="Телефон*"
+                required
+                class="form-container__form-input"
+              >
+              <input 
+                type="email" 
+                name="email" 
+                placeholder="E-mail"
+                class="form-container__form-input"
+              >
+              <textarea 
+                type="text" 
+                name="details" 
+                placeholder="Опишите, какие работы Вас интересуют"
+                class="form-container__form-input form-container__form-text"
+              ></textarea>
+              <button type="button" class="form-container__form-button button">отправить заявку</button>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
   </footer>

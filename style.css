@@ -105,13 +105,13 @@ body {
   bottom: 70px;
   right: 44px;
   z-index: 97;
-  height: 537px;
-  width: 398px;
+  height: 537px !important;
+  width: 398px !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #20a9ae;
+  background-color: #20a9ae !important;
   box-shadow: 0 1px 2px #524b3b;
 }
 .form-container__content {
